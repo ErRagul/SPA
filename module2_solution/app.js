@@ -37,20 +37,20 @@
 
         vm.buyItems = [
             {
-                name: 'cookies',
+                name: 'Cookies',
                 quantity: 10
             },
             {
-                name: 'cookies',
-                quantity: 10
+                name: 'Corn nuts',
+                quantity: 20
             },
             {
-                name: 'cookies',
-                quantity: 10
+                name: 'Cheese puff',
+                quantity: 30
             },
             {
-                name: 'cookies',
-                quantity: 10
+                name: 'Cashew nut',
+                quantity: 40
             }
         ];
         vm.boughtItems = [];
