@@ -30,8 +30,8 @@
 
 
 
-    ShoppingListCheckOffService.$injector = ['$log']
-    function ShoppingListCheckOffService($log) {
+    ShoppingListCheckOffService.$injector = []
+    function ShoppingListCheckOffService() {
 
         var vm = this;
 
@@ -62,7 +62,6 @@
             }
             vm.boughtItems.push(item);
             vm.buyItems.splice(index, 1);
-            $log.log('bought', vm.boughtItems);
         }
 
     }
